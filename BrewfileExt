@@ -1,0 +1,12 @@
+# brew bundle --file=BrewfileExt
+cask 'box-sync'
+
+# probation
+#
+# Shiori
+# WJoy
+# DarwiinRemote
+# OctoMouse
+# cd to
+# iChm
+# Swinsian
