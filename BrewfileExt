@@ -1,5 +1,6 @@
 # brew bundle --file=BrewfileExt
 cask 'box-sync'
+cask 'google-photos-backup'
 
 # probation
 #

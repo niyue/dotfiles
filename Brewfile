@@ -7,12 +7,10 @@ brew 'zsh'
 brew 'unrar'
 brew 'jq'
 brew 'oath-toolkit'
-brew 'nvm'
 brew 'desk'
 #brew 'macvim', args: ['with-override-system-vim']
 
 tap 'caskroom/cask'
-tap 'caskroom/fonts'
 
 # productivity
 cask 'alfred'
@@ -59,7 +57,8 @@ cask 'neteasemusic'
 
 
 # fonts
-# cask 'font-inconsolata'
+tap 'caskroom/fonts'
+cask 'font-inconsolata'
 
 cask 'qlcolorcode' # Enable syntax highlighting in source files
 cask 'qlstephen' # Preview plain text files without extension
