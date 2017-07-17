@@ -9,6 +9,7 @@ brew 'jq'
 brew 'oath-toolkit'
 brew 'desk'
 #brew 'macvim', args: ['with-override-system-vim']
+brew 'fzf'
 
 tap 'caskroom/cask'
 
@@ -40,6 +41,7 @@ cask 'flycut'
 cask 'gas-mask'
 cask 'jd-gui'
 cask 'docker'
+cask 'java'
 
 # utilities
 cask 'skype'

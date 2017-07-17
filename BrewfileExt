@@ -1,6 +1,10 @@
 # brew bundle --file=BrewfileExt
 cask 'box-sync'
 cask 'google-photos-backup'
+cask 'pycharm'
+cask 'atom'
+cask 'intellij-idea'
+cask 'eclipse-java'
 
 # probation
 #
