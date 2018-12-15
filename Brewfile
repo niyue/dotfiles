@@ -10,6 +10,7 @@ brew 'oath-toolkit'
 brew 'desk'
 #brew 'macvim', args: ['with-override-system-vim']
 brew 'fzf'
+brew 'bat'
 
 tap 'caskroom/cask'
 

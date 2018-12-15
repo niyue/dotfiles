@@ -1,10 +1,37 @@
 # brew bundle --file=BrewfileExt
-cask 'box-sync'
 cask 'google-photos-backup'
 cask 'pycharm'
 cask 'atom'
 cask 'intellij-idea'
 cask 'eclipse-java'
+cask 'karabiner-elements'
+# cask 'anaconda'
+cask 'transmission'
+cask 'adobe-acrobat-reader'
+cask 'thunder'
+cask 'pdftotext'
+cask 'visual-studio-code'
+# cask 'visualvm'
+cask 'ngrok'
+
+
+# https://github.com/julienXX/terminal-notifier
+brew 'terminal-notifier'
+# brew 'octave'
+brew 'clojure'
+brew 'leiningen'
+brew 'translate-shell'
+brew 'fasd'
+brew 'ripgrep'
+brew 'prettyping'
+brew 'htop'
+brew 'noti'
+brew 'cowsay'
+brew 'ncdu'
+# needs additional sudo
+brew 'docker-machine-driver-hyperkit'
+
+# mas 'wunderlist-to-do-list-tasks', id: 410628904
 
 # probation
 #
