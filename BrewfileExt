@@ -13,6 +13,8 @@ cask 'pdftotext'
 cask 'visual-studio-code'
 # cask 'visualvm'
 cask 'ngrok'
+cask 'itsycal'
+cask 'brave-browser'
 
 
 # https://github.com/julienXX/terminal-notifier
@@ -30,6 +32,10 @@ brew 'cowsay'
 brew 'ncdu'
 # needs additional sudo
 brew 'docker-machine-driver-hyperkit'
+brew 'pv'
+brew 'httpstat'
+brew 'lsd'
+
 
 # mas 'wunderlist-to-do-list-tasks', id: 410628904
 
