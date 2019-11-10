@@ -19,3 +19,6 @@ sh ~/.vim_runtime/install_basic_vimrc.sh
 # keyboard settings
 # https://gist.github.com/kconragan/2510186
 defaults write -g ApplePressAndHoldEnabled -bool false
+
+# disable gatekeeper
+sudo spctl --master-disable

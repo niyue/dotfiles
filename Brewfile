@@ -27,7 +27,7 @@ cask 'numi'
 cask 'macdown'
 cask 'quitter'
 
-cask 'mysimbl' # for afloat
+# cask 'mysimbl' # for afloat
 
 # development
 cask 'sublime-text'
