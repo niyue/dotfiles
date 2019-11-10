@@ -1,6 +1,6 @@
 # brew bundle --file=BrewfileExt
 cask 'pycharm'
-cask 'intellij-idea'
+cask 'intellij-idea-ce'
 # cask 'anaconda'
 cask 'thunder'
 cask 'pdftotext'

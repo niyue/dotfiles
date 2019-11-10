@@ -1,7 +1,7 @@
 # zsh
 export ZSH=~/.oh-my-zsh
 ZSH_THEME="gianu"
-plugins=(git poetry docker brew scala sbt python virtualenv)
+plugins=(git docker brew scala sbt python virtualenv)
 source $ZSH/oh-my-zsh.sh
 
 # alias
