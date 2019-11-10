@@ -1,13 +1,7 @@
 # brew bundle --file=BrewfileExt
-cask 'google-photos-backup'
 cask 'pycharm'
-cask 'atom'
 cask 'intellij-idea'
-cask 'eclipse-java'
-cask 'karabiner-elements'
 # cask 'anaconda'
-cask 'transmission'
-cask 'adobe-acrobat-reader'
 cask 'thunder'
 cask 'pdftotext'
 cask 'visual-studio-code'
@@ -15,11 +9,11 @@ cask 'visual-studio-code'
 cask 'ngrok'
 cask 'itsycal'
 cask 'brave-browser'
+cask 'bloomrpc'
 
 
 # https://github.com/julienXX/terminal-notifier
 brew 'terminal-notifier'
-# brew 'octave'
 brew 'clojure'
 brew 'leiningen'
 brew 'translate-shell'
@@ -35,6 +29,12 @@ brew 'docker-machine-driver-hyperkit'
 brew 'pv'
 brew 'httpstat'
 brew 'lsd'
+brew 'protobuf'
+brew 'cloc'
+brew 'entr'
+brew 'exa'
+brew 'up'
+# brew 'lazydocker'
 
 
 # mas 'wunderlist-to-do-list-tasks', id: 410628904
@@ -48,3 +48,9 @@ brew 'lsd'
 # cd to
 # iChm
 # Swinsian
+# brew 'octave'
+# cask 'atom'
+# cask 'eclipse-java'
+# cask 'adobe-acrobat-reader'
+# cask 'transmission'
+# cask 'karabiner-elements'
