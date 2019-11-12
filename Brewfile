@@ -50,6 +50,7 @@ cask 'posterazor'
 cask 'vlc'
 cask 'iina'
 cask 'neteasemusic'
+cask 'qqmusic'
 
 # writing
 cask 'deckset'

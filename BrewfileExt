@@ -10,6 +10,7 @@ cask 'ngrok'
 cask 'itsycal'
 cask 'brave-browser'
 cask 'bloomrpc'
+cask 'telegram'
 
 
 # https://github.com/julienXX/terminal-notifier
