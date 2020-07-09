@@ -32,3 +32,20 @@ elif [[ -d {} ]]; then
 else;
     tput setaf 1; echo YOU ARE NOT SUPPOSED TO SEE THIS!
 fi'"
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# proxy
+proxyon () {
+    export http_proxy=Socks5://127.0.0.1:7891
+    export https_proxy=Socks5://127.0.0.1:7891
+    echo "http/https proxy on."
+    curl ip.gs
+}
+
+proxyoff () {
+    unset http_proxy
+    unset https_proxy
+    echo "http/https proxy off."
+    curl ip.gs
+}

@@ -11,6 +11,8 @@ brew 'desk'
 #brew 'macvim', args: ['with-override-system-vim']
 brew 'fzf'
 brew 'bat'
+brew 'tldr'
+brew 'fd'
 
 tap 'homebrew/cask'
 

@@ -1,18 +1,4 @@
 # brew bundle --file=BrewfileExt
-cask 'pycharm'
-cask 'intellij-idea-ce'
-# cask 'anaconda'
-cask 'thunder'
-cask 'pdftotext'
-cask 'visual-studio-code'
-# cask 'visualvm'
-cask 'ngrok'
-cask 'itsycal'
-cask 'brave-browser'
-cask 'bloomrpc'
-# telegram must be downloaded from https://desktop.telegram.org so that phone verification can pass
-# https://github.com/shadowsocks/ShadowsocksX-NG/issues/290
-# cask 'telegram'
 
 
 # https://github.com/julienXX/terminal-notifier
@@ -37,11 +23,37 @@ brew 'cloc'
 brew 'entr'
 brew 'exa'
 brew 'up'
+brew 'glances'
+brew 'diff-so-fancy'
+brew 'neovim'
+brew 'desk'
+# FIGlet is a program for making large letters out of ordinary text
+brew 'figlet'
 # brew 'lazydocker'
 
+# disk IO test
+brew 'iozone'
+brew 'fio'
+
+
+cask 'pycharm'
+cask 'intellij-idea-ce'
+# cask 'anaconda'
+cask 'thunder'
+cask 'pdftotext'
+cask 'visual-studio-code'
+# cask 'visualvm'
+cask 'ngrok'
+cask 'itsycal'
+cask 'brave-browser'
+cask 'bloomrpc'
+
+# telegram must be downloaded from https://desktop.telegram.org so that phone verification can pass
+# https://github.com/shadowsocks/ShadowsocksX-NG/issues/290
+# cask 'telegram'
+cask 'haptickey'
 
 # mas 'wunderlist-to-do-list-tasks', id: 410628904
-
 # probation
 #
 # Shiori
