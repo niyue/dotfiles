@@ -1,11 +1,19 @@
 # zsh
 export ZSH=~/.oh-my-zsh
-ZSH_THEME="gianu"
-plugins=(git docker brew scala sbt python virtualenv)
+plugins=(git docker brew scala sbt python zsh-syntax-highlighting zsh-autosuggestions cp)
+
+# install pure prompt
+ZSH_THEME=""
+fpath+=$HOME/.zsh/pure
+
 source $ZSH/oh-my-zsh.sh
 
+# initiate pure
+autoload -U promptinit; promptinit
+prompt pure
+
 # alias
-alias ll=exa
+alias ll="exa -hal"
 
 alias ,='cd ..'
 alias ,,='cd ../..'
@@ -49,3 +57,10 @@ proxyoff () {
     echo "http/https proxy off."
     curl ip.gs
 }
+
+
+# Hook for desk activation
+[ -n "$DESK_ENV" ] && source "$DESK_ENV" || true
+
+
+source ~/.zshrc_ext

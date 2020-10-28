@@ -49,7 +49,6 @@ cask 'disk-inventory-x'
 cask 'posterazor'
 
 # video players
-cask 'vlc'
 cask 'iina'
 cask 'neteasemusic'
 cask 'qqmusic'
@@ -60,20 +59,22 @@ cask 'deckset'
 # fonts
 tap 'homebrew/cask-fonts'
 cask 'font-inconsolata'
+cask 'font-fira-code'
 
 cask 'qlcolorcode' # Enable syntax highlighting in source files
 cask 'qlstephen' # Preview plain text files without extension
 cask 'qlmarkdown' # Preview Markdown files
 cask 'quicklook-json' # Preview json jiles
 cask 'qlprettypatch' # diff/patch files
+cask 'slack'
+cask 'v2rayu'
+cask 'clashx'
 
 # log into Mac App Store up front
 mas 'wechat', id: 836500024
 mas 'kindle', id: 405399194
 mas 'alinof-timer', id: 512464723
 
-# requiring password to install
-cask 'vagrant'
-cask 'java'
 
 # cask 'virtualbox'
+
