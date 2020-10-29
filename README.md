@@ -16,3 +16,8 @@ Accessibility => Pointer Control => Trackpad options => Enable dragging
 Trackpad => Point & Click => Tap to click
 ## Apply color presets for iTerm2
 iTerm2 Preferences => Profiles => Colors => Color Presets
+## Install Visual Studio Code extensions
+1. Use vscode to open this folder
+1. Navigate to "Extensions", filter extensions using "Recommended"
+1. A list of extensions will be shown in "Workspace Recommendations"
+1. Click the ☁️A button to install all extenions at once
