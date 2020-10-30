@@ -35,6 +35,8 @@ brew 'figlet'
 brew 'iozone'
 brew 'fio'
 
+brew 'saulpw/vd/visidata'
+
 
 cask 'pycharm'
 cask 'intellij-idea-ce'
@@ -52,6 +54,14 @@ cask 'bloomrpc'
 # https://github.com/shadowsocks/ShadowsocksX-NG/issues/290
 # cask 'telegram'
 cask 'haptickey'
+
+cask 'switchhosts'
+# p4merge
+cask 'p4v'
+# csv editor
+cask 'tad'
+# screensaver
+cask 'aerial'
 
 # mas 'wunderlist-to-do-list-tasks', id: 410628904
 # probation

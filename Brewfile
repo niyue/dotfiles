@@ -13,6 +13,7 @@ brew 'fzf'
 brew 'bat'
 brew 'tldr'
 brew 'fd'
+brew 'netcat'
 
 tap 'homebrew/cask'
 
@@ -46,7 +47,6 @@ cask 'docker'
 cask 'keka' # archiver
 cask 'appcleaner'
 cask 'disk-inventory-x'
-cask 'posterazor'
 
 # video players
 cask 'iina'
@@ -60,6 +60,7 @@ cask 'deckset'
 tap 'homebrew/cask-fonts'
 cask 'font-inconsolata'
 cask 'font-fira-code'
+cask 'font-noto-sans-cjk'
 
 cask 'qlcolorcode' # Enable syntax highlighting in source files
 cask 'qlstephen' # Preview plain text files without extension
@@ -74,6 +75,7 @@ cask 'clashx'
 mas 'wechat', id: 836500024
 mas 'kindle', id: 405399194
 mas 'alinof-timer', id: 512464723
+mas 'be-focused-focus-timer', id: 973134470
 
 
 # cask 'virtualbox'

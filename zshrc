@@ -14,6 +14,7 @@ prompt pure
 
 # alias
 alias ll="exa -hal"
+alias ping="prettyping"
 
 alias ,='cd ..'
 alias ,,='cd ../..'
@@ -41,21 +42,30 @@ else;
     tput setaf 1; echo YOU ARE NOT SUPPOSED TO SEE THIS!
 fi'"
 
+# find-in-file - usage: fif <SEARCH_TERM>
+fif() {
+  if [ ! "$#" -gt 0 ]; then
+    echo "Need a string to search for!";
+    return 1;
+  fi
+  rg --files-with-matches --no-messages "$1" | fzf $FZF_PREVIEW_WINDOW --preview "rg --ignore-case --pretty --context 10 '$1' {}"
+}
+
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # proxy
 proxyon () {
-    export http_proxy=Socks5://127.0.0.1:7891
-    export https_proxy=Socks5://127.0.0.1:7891
+    export HTTP_PROXY="Socks5://127.0.0.1:7891"
+    export HTTPS_PROXY="Socks5://127.0.0.1:7891"
     echo "http/https proxy on."
-    curl ip.gs
+    curl -s ip.gs/json | jq '.ip + "@" + .city + ", " + .country'
 }
 
 proxyoff () {
-    unset http_proxy
-    unset https_proxy
+    unset HTTP_PROXY
+    unset HTTPS_PROXY
     echo "http/https proxy off."
-    curl ip.gs
+    curl -s ip.gs/json | jq '.ip + "@" + .city + ", " + .country'
 }
 
 
@@ -64,3 +74,4 @@ proxyoff () {
 
 
 source ~/.zshrc_ext
+
