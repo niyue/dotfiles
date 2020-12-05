@@ -14,7 +14,6 @@ brew 'noti'
 brew 'cowsay'
 brew 'ncdu'
 # needs additional sudo
-brew 'docker-machine-driver-hyperkit'
 brew 'pv'
 brew 'httpstat'
 brew 'lsd'
@@ -36,6 +35,8 @@ brew 'iozone'
 brew 'fio'
 
 brew 'saulpw/vd/visidata'
+# A tool for exploring a docker image, layer contents
+brew 'dive'
 
 
 cask 'pycharm'
@@ -62,6 +63,11 @@ cask 'p4v'
 cask 'tad'
 # screensaver
 cask 'aerial'
+
+tap 'adoptopenjdk/openjdk'
+cask 'adoptopenjdk15'
+# keep your mac awake
+mas 'amphetamine', id: 937984704
 
 # mas 'wunderlist-to-do-list-tasks', id: 410628904
 # probation

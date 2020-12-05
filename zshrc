@@ -35,7 +35,7 @@ FZF_DEFAULT_OPTS="--bind='ctrl-o:execute-silent(code {})+abort'"
 # if it's a directory shows its content, the rest is ignored
 FZF_CTRL_T_OPTS="--preview-window wrap --preview '
 if [[ -f {} ]]; then
-    file --mime {} | grep -q \"text\/.*;\" && bat --color \"always\" {} || (tput setaf 1; file --mime {})
+    file --mime {} | grep -q \"text\|json\|csv\" && bat --color \"always\" {} || (tput setaf 1; file --mime {})
 elif [[ -d {} ]]; then
     exa -l --color always {}
 else;
@@ -53,19 +53,27 @@ fif() {
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-# proxy
-proxyon () {
-    export HTTP_PROXY="Socks5://127.0.0.1:7891"
-    export HTTPS_PROXY="Socks5://127.0.0.1:7891"
-    echo "http/https proxy on."
+whereami () {
     curl -s ip.gs/json | jq '.ip + "@" + .city + ", " + .country'
 }
 
+# proxy
+proxyon () {
+    export http_proxy="socks5://127.0.0.1:7890"
+    export https_proxy="socks5://127.0.0.1:7890"
+    git config --global http.proxy $http_proxy
+    git config --global https.proxy $https_proxy
+    echo "http/https proxy on."
+    whereami
+}
+
 proxyoff () {
-    unset HTTP_PROXY
-    unset HTTPS_PROXY
+    unset http_proxy
+    unset https_proxy
+    git config --global --unset http.proxy
+    git config --global --unset https.proxy
     echo "http/https proxy off."
-    curl -s ip.gs/json | jq '.ip + "@" + .city + ", " + .country'
+    whereami
 }
 
 

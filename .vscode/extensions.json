@@ -29,6 +29,7 @@
 		"vscodevim.vim",
 		"ms-vsliveshare.vsliveshare",
 		"eamodio.gitlens",
+		"randomfractalsinc.vscode-data-preview",
 	],
 	// List of extensions recommended by VS Code that should not be recommended for users of this workspace.
 	"unwantedRecommendations": [
