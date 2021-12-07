@@ -1,6 +1,6 @@
 # zsh
 export ZSH=~/.oh-my-zsh
-plugins=(git docker brew scala sbt python zsh-syntax-highlighting zsh-autosuggestions cp)
+plugins=(git docker brew scala sbt python zsh-syntax-highlighting zsh-autosuggestions cp kubectl)
 
 # install pure prompt
 ZSH_THEME=""
@@ -15,6 +15,7 @@ prompt pure
 # alias
 alias ll="exa -hal"
 alias ping="prettyping"
+alias k=kubectl
 
 alias ,='cd ..'
 alias ,,='cd ../..'
@@ -54,7 +55,7 @@ fif() {
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 whereami () {
-    curl -s ip.gs/json | jq '.ip + "@" + .city + ", " + .country'
+    curl -H 'Accept: application/json' -s ip.gs | jq '.ip + "@" + .city + ", " + .country'
 }
 
 # proxy
@@ -83,3 +84,8 @@ proxyoff () {
 
 source ~/.zshrc_ext
 
+
+export PATH="$HOME/.poetry/bin:$PATH"
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"

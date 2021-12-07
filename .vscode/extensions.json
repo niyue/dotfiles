@@ -10,7 +10,6 @@
 		"ms-python.python",
 		"ms-python.vscode-pylance",
 		"mike-lischke.vscode-antlr4",
-		"rust-lang.rust",
 		"twxs.cmake",
 		"vadimcn.vscode-lldb",
 		"file-icons.file-icons",
@@ -30,6 +29,17 @@
 		"ms-vsliveshare.vsliveshare",
 		"eamodio.gitlens",
 		"randomfractalsinc.vscode-data-preview",
+        "bungcip.better-toml",
+        "tomoyukim.vscode-mermaid-editor",
+        "bpruitt-goddard.mermaid-markdown-syntax-highlighting",
+        "MykhailoGrebonkin.apple-crashlog",
+        "EditorConfig.EditorConfig",
+        "GitHub.copilot-nightly",
+		"rust-lang.rust",
+        "matklad.rust-analyzer",
+        "redhat.vscode-yaml",
+        "zxh404.vscode-proto3",
+
 	],
 	// List of extensions recommended by VS Code that should not be recommended for users of this workspace.
 	"unwantedRecommendations": [

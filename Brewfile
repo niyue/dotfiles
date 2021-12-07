@@ -19,7 +19,7 @@ tap 'homebrew/cask'
 
 # productivity
 cask 'alfred'
-cask 'spectacle'
+cask 'rectangle'
 cask 'caffeine'
 cask 'nvalt'
 cask 'shortcat'
