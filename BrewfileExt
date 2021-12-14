@@ -39,8 +39,8 @@ brew 'saulpw/vd/visidata'
 brew 'dive'
 
 
-cask 'pycharm'
-cask 'intellij-idea-ce'
+# use jetbrains toolbox to manage pycharm/intellij
+cask 'jetbrains-toolbox'
 # cask 'anaconda'
 cask 'thunder'
 cask 'pdftotext'
@@ -57,12 +57,18 @@ cask 'bloomrpc'
 cask 'haptickey'
 
 cask 'switchhosts'
-# p4merge
-cask 'p4v'
 # csv editor
 cask 'tad'
 # screensaver
 cask 'aerial'
+
+cask 'onedrive'
+cask 'sublime-merge'
+
+# tap for vimac, keyborad shortcut app
+# https://github.com/dexterleng/vimac/issues/152
+tap 'kidonng/malt'
+cask 'vimac'
 
 tap 'adoptopenjdk/openjdk'
 cask 'adoptopenjdk15'

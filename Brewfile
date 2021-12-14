@@ -70,6 +70,7 @@ cask 'qlprettypatch' # diff/patch files
 cask 'slack'
 cask 'v2rayu'
 cask 'clashx'
+cask 'unexpectedly' # view crash log
 
 # log into Mac App Store up front
 mas 'wechat', id: 836500024

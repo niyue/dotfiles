@@ -39,6 +39,7 @@
         "matklad.rust-analyzer",
         "redhat.vscode-yaml",
         "zxh404.vscode-proto3",
+        "gera2ld.markmap-vscode",
 
 	],
 	// List of extensions recommended by VS Code that should not be recommended for users of this workspace.
