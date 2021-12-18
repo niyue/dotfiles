@@ -1,0 +1,11 @@
+ #!/bin/sh
+
+ # print all `defaults` properties for an application on macOS
+
+ # sample usage:
+ # read_defaults /Applications/Sourcetree.app
+
+ # the first argument should be the path to the app
+ mdls -name kMDItemCFBundleIdentifier -r $1
+
+ mdls -name kMDItemCFBundleIdentifier -r $1 | xargs defaults read

@@ -1,49 +1,48 @@
 {
-	// See https://go.microsoft.com/fwlink/?LinkId=827846 to learn about workspace recommendations.
-	// Extension identifier format: ${publisher}.${name}. Example: vscode.csharp
-
-	// List of extensions which should be recommended for users of this workspace.
-	"recommendations": [
-		"ms-vscode.cpptools",
-		"tabnine.tabnine-vscode",
-		"ms-azuretools.vscode-docker",
-		"ms-python.python",
-		"ms-python.vscode-pylance",
-		"mike-lischke.vscode-antlr4",
-		"twxs.cmake",
-		"vadimcn.vscode-lldb",
-		"file-icons.file-icons",
-		"gaborv.flatbuffers",
-		"golang.go",
-		"vscjava.vscode-java-debug",
-		"vscjava.vscode-java-pack",
-		"vscjava.vscode-maven",
-		"yzhang.markdown-all-in-one",
-		"mechatroner.rainbow-csv",
-		"ms-vscode-remote.remote-containers",
-		"scala-lang.scala",
-		"hbenl.vscode-test-explorer",
-		"redhat.vscode-xml",
-		"serayuzgur.crates",
-		"vscodevim.vim",
-		"ms-vsliveshare.vsliveshare",
-		"eamodio.gitlens",
-		"randomfractalsinc.vscode-data-preview",
-        "bungcip.better-toml",
-        "tomoyukim.vscode-mermaid-editor",
-        "bpruitt-goddard.mermaid-markdown-syntax-highlighting",
-        "MykhailoGrebonkin.apple-crashlog",
-        "EditorConfig.EditorConfig",
-        "GitHub.copilot-nightly",
-		"rust-lang.rust",
-        "matklad.rust-analyzer",
-        "redhat.vscode-yaml",
-        "zxh404.vscode-proto3",
-        "gera2ld.markmap-vscode",
-
-	],
-	// List of extensions recommended by VS Code that should not be recommended for users of this workspace.
-	"unwantedRecommendations": [
-		
-	]
+  // See https://go.microsoft.com/fwlink/?LinkId=827846 to learn about workspace recommendations.
+  // Extension identifier format: ${publisher}.${name}. Example: vscode.csharp
+  // List of extensions which should be recommended for users of this workspace.
+  "recommendations": [
+    "ms-vscode.cpptools",
+    // "tabnine.tabnine-vscode",
+    "ms-azuretools.vscode-docker",
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "mike-lischke.vscode-antlr4",
+    "twxs.cmake",
+    "vadimcn.vscode-lldb",
+    "file-icons.file-icons",
+    "gaborv.flatbuffers",
+    "golang.go",
+    "vscjava.vscode-java-debug",
+    "vscjava.vscode-java-pack",
+    "vscjava.vscode-maven",
+    "yzhang.markdown-all-in-one",
+    "mechatroner.rainbow-csv",
+    "ms-vscode-remote.remote-containers",
+    "scala-lang.scala",
+    "hbenl.vscode-test-explorer",
+    "redhat.vscode-xml",
+    "serayuzgur.crates",
+    "vscodevim.vim",
+    "ms-vsliveshare.vsliveshare",
+    "eamodio.gitlens",
+    "randomfractalsinc.vscode-data-preview",
+    "bungcip.better-toml",
+    "tomoyukim.vscode-mermaid-editor",
+    "bpruitt-goddard.mermaid-markdown-syntax-highlighting",
+    "MykhailoGrebonkin.apple-crashlog",
+    "EditorConfig.EditorConfig",
+    "GitHub.copilot-nightly",
+    "rust-lang.rust",
+    "matklad.rust-analyzer",
+    "redhat.vscode-yaml",
+    "zxh404.vscode-proto3",
+    "gera2ld.markmap-vscode",
+    // color themes
+    "zhuangtongfa.Material-theme",
+    "shd101wyy.markdown-preview-enhanced",
+  ],
+  // List of extensions recommended by VS Code that should not be recommended for users of this workspace.
+  "unwantedRecommendations": []
 }

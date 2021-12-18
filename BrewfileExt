@@ -38,12 +38,13 @@ brew 'saulpw/vd/visidata'
 # A tool for exploring a docker image, layer contents
 brew 'dive'
 
+brew 'pyenv'
+
 
 # use jetbrains toolbox to manage pycharm/intellij
 cask 'jetbrains-toolbox'
 # cask 'anaconda'
 cask 'thunder'
-cask 'pdftotext'
 cask 'visual-studio-code'
 # cask 'visualvm'
 cask 'ngrok'
@@ -70,10 +71,12 @@ cask 'sublime-merge'
 tap 'kidonng/malt'
 cask 'vimac'
 
-tap 'adoptopenjdk/openjdk'
-cask 'adoptopenjdk15'
 # keep your mac awake
 mas 'amphetamine', id: 937984704
+
+tap 'adoptopenjdk/openjdk'
+cask 'adoptopenjdk16'
+cask 'microsoft-teams'
 
 # mas 'wunderlist-to-do-list-tasks', id: 410628904
 # probation

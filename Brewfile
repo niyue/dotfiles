@@ -4,11 +4,10 @@ brew 'tmux'
 brew 'autoenv'
 brew 'autojump'
 brew 'zsh'
-brew 'unrar'
+brew 'carlocab/personal/unrar'
 brew 'jq'
 brew 'oath-toolkit'
 brew 'desk'
-#brew 'macvim', args: ['with-override-system-vim']
 brew 'fzf'
 brew 'bat'
 brew 'tldr'
@@ -21,7 +20,6 @@ tap 'homebrew/cask'
 cask 'alfred'
 cask 'rectangle'
 cask 'caffeine'
-cask 'nvalt'
 cask 'shortcat'
 cask 'evernote'
 # https://github.com/dustinrue/ControlPlane
@@ -50,7 +48,6 @@ cask 'disk-inventory-x'
 
 # video players
 cask 'iina'
-cask 'neteasemusic'
 cask 'qqmusic'
 
 # writing
@@ -67,17 +64,18 @@ cask 'qlstephen' # Preview plain text files without extension
 cask 'qlmarkdown' # Preview Markdown files
 cask 'quicklook-json' # Preview json jiles
 cask 'qlprettypatch' # diff/patch files
-cask 'slack'
 cask 'v2rayu'
 cask 'clashx'
 cask 'unexpectedly' # view crash log
 
 # log into Mac App Store up front
 mas 'wechat', id: 836500024
-mas 'kindle', id: 405399194
 mas 'alinof-timer', id: 512464723
 mas 'be-focused-focus-timer', id: 973134470
 
 
 # cask 'virtualbox'
-
+# cask 'nvalt'
+# cask 'slack'
+# cask 'neteasemusic'
+# mas 'kindle', id: 405399194
