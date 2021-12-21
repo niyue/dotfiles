@@ -39,6 +39,12 @@ brew 'saulpw/vd/visidata'
 brew 'dive'
 
 brew 'pyenv'
+brew 'maven'
+
+# used by neovim/vim
+brew 'ctags'
+
+brew yarn
 
 
 # use jetbrains toolbox to manage pycharm/intellij
@@ -77,6 +83,7 @@ mas 'amphetamine', id: 937984704
 tap 'adoptopenjdk/openjdk'
 cask 'adoptopenjdk16'
 cask 'microsoft-teams'
+cask 'keycastr'
 
 # mas 'wunderlist-to-do-list-tasks', id: 410628904
 # probation

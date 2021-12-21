@@ -1,4 +1,5 @@
 brew 'vim'
+brew 'neovim'
 brew 'tree'
 brew 'tmux'
 brew 'autoenv'
@@ -58,6 +59,7 @@ tap 'homebrew/cask-fonts'
 cask 'font-inconsolata'
 cask 'font-fira-code'
 cask 'font-noto-sans-cjk'
+cask 'font-hack-nerd-font'
 
 cask 'qlcolorcode' # Enable syntax highlighting in source files
 cask 'qlstephen' # Preview plain text files without extension
