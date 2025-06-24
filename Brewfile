@@ -3,7 +3,6 @@ brew 'neovim'
 brew 'tree'
 brew 'tmux'
 brew 'autoenv'
-brew 'autojump'
 brew 'zsh'
 brew 'carlocab/personal/unrar'
 brew 'jq'
@@ -14,6 +13,9 @@ brew 'bat'
 brew 'tldr'
 brew 'fd'
 brew 'netcat'
+brew 'ripgrep'
+brew 'entr'
+brew 'just'
 
 tap 'homebrew/cask'
 
@@ -41,6 +43,7 @@ cask 'flycut'
 cask 'gas-mask'
 cask 'jd-gui'
 cask 'docker'
+cask 'visual-studio-code'
 
 # utilities
 cask 'keka' # archiver
@@ -69,15 +72,20 @@ cask 'qlprettypatch' # diff/patch files
 cask 'v2rayu'
 cask 'clashx'
 cask 'unexpectedly' # view crash log
+cask 'kitty'
 
 # log into Mac App Store up front
-mas 'wechat', id: 836500024
-mas 'alinof-timer', id: 512464723
-mas 'be-focused-focus-timer', id: 973134470
+# mas 'wechat', id: 836500024
+# mas 'alinof-timer', id: 512464723
+# mas 'be-focused-focus-timer', id: 973134470
+# keep your mac awake
+# mas 'amphetamine', id: 937984704
 
 
 # cask 'virtualbox'
 # cask 'nvalt'
 # cask 'slack'
 # cask 'neteasemusic'
-# mas 'kindle', id: 405399194
+
+# use intel brew to install
+# brew 'autojump'

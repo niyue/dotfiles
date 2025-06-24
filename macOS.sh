@@ -3,7 +3,7 @@
 # macOS setup                                                                 #
 ###############################################################################
 
-COMPUTER_NAME="sac"
+COMPUTER_NAME=${COMPUTER_NAME:-"sac"}
 # Set computer name (as done via System Preferences → Sharing)
 sudo scutil --set ComputerName "$COMPUTER_NAME"
 sudo scutil --set HostName "$COMPUTER_NAME"
@@ -20,16 +20,16 @@ sudo spctl --master-disable
 # Disable the sound effects on boot
 sudo nvram SystemAudioVolume=" "
 
-# Disable automatic capitalization as it’s annoying when typing code
+# Disable automatic capitalization as it's annoying when typing code
 defaults write NSGlobalDomain NSAutomaticCapitalizationEnabled -bool false
 
-# Disable smart dashes as they’re annoying when typing code
+# Disable smart dashes as they're annoying when typing code
 defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
 
-# Disable automatic period substitution as it’s annoying when typing code
+# Disable automatic period substitution as it's annoying when typing code
 defaults write NSGlobalDomain NSAutomaticPeriodSubstitutionEnabled -bool false
 
-# Disable smart quotes as they’re annoying when typing code
+# Disable smart quotes as they're annoying when typing code
 defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool false
 
 # Disable auto-correct
@@ -173,3 +173,7 @@ defaults write com.generalarcade.flycut menuIcon 3
 
 # set sourcetree's allow force push
 defaults write com.torusknot.SourceTreeNotMAS allowForcePush 1
+
+# adjusting the menu bar whitespace settings
+defaults -currentHost write -globalDomain NSStatusItemSelectionPadding -int 6
+defaults -currentHost write -globalDomain NSStatusItemSpacing -int 6

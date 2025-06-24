@@ -27,7 +27,7 @@ alias ,,,,,,,='cd ../../../../../../..'
 alias ,,,,,,,,='cd ../../../../../../../..'
 
 # autojump
-[ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
+[ -f  /opt/homebrew/etc/profile.d/autojump.sh ] && . /opt/homebrew/etc/profile.d/autojump.sh
 
 # fzf configuration
 FZF_DEFAULT_OPTS="--bind='ctrl-o:execute-silent(code {})+abort'"
@@ -89,3 +89,6 @@ export PATH="$HOME/.poetry/bin:$PATH"
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
+export PATH="/opt/homebrew/bin:$PATH"
+
+alias brow='arch --x86_64 /usr/local/Homebrew/bin/brew'
