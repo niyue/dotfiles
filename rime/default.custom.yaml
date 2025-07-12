@@ -1,0 +1,8 @@
+patch:
+  menu:
+    page_size: 8  # 候选词个数
+  key_binder:
+    bindings:
+      - { when: composing, accept: "[", send: Page_Up }
+      - { when: composing, accept: "]", send: Page_Down }
+  

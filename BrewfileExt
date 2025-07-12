@@ -79,6 +79,9 @@ cask 'keycastr'
 # https://github.com/XcodesOrg/XcodesApp
 cask 'xcodes'
 
+# input method, https://rime.im
+cask 'squirrel-app'
+
 # probation
 #
 # vagrant
