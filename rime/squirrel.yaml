@@ -28,23 +28,23 @@ show_notifications_when: appropriate
 # 可参考 /Library/Input Methods/Squirrel.app/Contents/SharedSupport/squirrel.yaml
 app_options:
   com.apple.Spotlight:
-    ascii_mode: true    # 开启默认英文
+    ascii_mode: false # 开启默认英文
   com.runningwithcrayons.Alfred:
     ascii_mode: true
   com.googlecode.iterm2:
-    ascii_mode: true
+    ascii_mode: false
     vim_mode: true
     switch_back_on_exit: true
   com.apple.Terminal:
-    ascii_mode: true
+    ascii_mode: false
     vim_mode: true
     switch_back_on_exit: true
   com.microsoft.VSCode:
-    ascii_mode: true
+    ascii_mode: false
     vim_mode: true
     switch_back_on_exit: true
   com.jetbrains.rustrover:
-    ascii_mode: true
+    ascii_mode: false
     vim_mode: true
     switch_back_on_exit: true
   com.jetbrains.clion:
@@ -52,7 +52,7 @@ app_options:
     vim_mode: true
     switch_back_on_exit: true
   com.jetbrains.intellij:
-    ascii_mode: true
+    ascii_mode: false
     vim_mode: true
     switch_back_on_exit: true
   com.torusknot.SourceTreeNotMAS:
@@ -60,7 +60,7 @@ app_options:
     vim_mode: true
     switch_back_on_exit: true
   com.apple.systempreferences:
-    ascii_mode: true
+    ascii_mode: false
 
 
 style:

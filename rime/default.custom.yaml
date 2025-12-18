@@ -1,4 +1,5 @@
 patch:
+  ascii_mode: false
   menu:
     page_size: 8  # 候选词个数
   key_binder:
