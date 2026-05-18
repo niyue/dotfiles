@@ -55,7 +55,7 @@ fif() {
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 whereami () {
-    curl -H 'Accept: application/json' -s ip.gs | jq '.ip + "@" + .city + ", " + .country'
+    curl -H 'Accept: application/json' -s https://ipinfo.io/json | jq '.ip + "@" + .city + ", " + .country'
 }
 
 # proxy
