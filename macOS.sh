@@ -177,3 +177,6 @@ defaults write com.torusknot.SourceTreeNotMAS allowForcePush 1
 # adjusting the menu bar whitespace settings
 defaults -currentHost write -globalDomain NSStatusItemSelectionPadding -int 6
 defaults -currentHost write -globalDomain NSStatusItemSpacing -int 6
+
+# set Maps' to Chinese language
+defaults write com.apple.Maps AppleLanguages '("zh-Hans")'
