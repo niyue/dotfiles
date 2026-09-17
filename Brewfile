@@ -4,7 +4,7 @@ brew 'tree'
 brew 'tmux'
 brew 'autoenv'
 brew 'zsh'
-brew 'carlocab/personal/unrar'
+# brew 'carlocab/personal/unrar'
 brew 'jq'
 brew 'oath-toolkit'
 brew 'desk'
@@ -24,10 +24,11 @@ cask 'alfred'
 cask 'rectangle'
 cask 'caffeine'
 cask 'shortcat'
+cask 'ghostty'
 #cask 'evernote'
 # https://github.com/dustinrue/ControlPlane
 cask 'controlplane'
-#cask 'numi'
+# cask 'numi'
 cask 'macdown'
 cask 'quitter'
 
@@ -64,14 +65,11 @@ cask 'font-fira-code'
 cask 'font-noto-sans-cjk'
 cask 'font-hack-nerd-font'
 
-cask 'qlcolorcode' # Enable syntax highlighting in source files
-cask 'qlstephen' # Preview plain text files without extension
-cask 'qlmarkdown' # Preview Markdown files
-cask 'quicklook-json' # Preview json jiles
-cask 'qlprettypatch' # diff/patch files
-cask 'v2rayu'
-cask 'clashx'
-cask 'unexpectedly' # view crash log
+# cask 'qlcolorcode' # Enable syntax highlighting in source files
+# cask 'qlstephen' # Preview plain text files without extension
+# cask 'qlmarkdown' # Preview Markdown files
+# cask 'quicklook-json' # Preview json jiles
+# cask 'qlprettypatch' # diff/patch files
 cask 'kitty'
 
 # log into Mac App Store up front
@@ -88,4 +86,8 @@ cask 'kitty'
 # cask 'neteasemusic'
 
 # use intel brew to install
-# brew 'autojump'
+brew 'autojump'
+
+brew 'codex'
+brew 'claude-code'
+cask 'chatgpt'

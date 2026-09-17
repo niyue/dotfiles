@@ -3,10 +3,6 @@
 
 # https://github.com/julienXX/terminal-notifier
 brew 'terminal-notifier'
-brew 'clojure'
-brew 'leiningen'
-brew 'translate-shell'
-brew 'fasd'
 brew 'prettyping'
 brew 'htop'
 brew 'noti'
@@ -16,7 +12,7 @@ brew 'ncdu'
 brew 'pv'
 brew 'httpstat'
 brew 'lsd'
-brew 'protobuf'
+# brew 'protobuf'
 brew 'cloc'
 brew 'exa'
 brew 'up'
@@ -26,7 +22,6 @@ brew 'neovim'
 brew 'desk'
 # FIGlet is a program for making large letters out of ordinary text
 brew 'figlet'
-# brew 'lazydocker'
 
 # disk IO test
 brew 'iozone'
@@ -36,26 +31,17 @@ brew 'saulpw/vd/visidata'
 # A tool for exploring a docker image, layer contents
 brew 'dive'
 
-brew 'pyenv'
-brew 'maven'
-
 # used by neovim/vim
 brew 'ctags'
 
-brew 'yarn'
+# brew 'yarn'
 
 # image viewer
 brew 'viu'
 
-
-# use jetbrains toolbox to manage pycharm/intellij
-cask 'jetbrains-toolbox'
-# cask 'anaconda'
 cask 'thunder'
-# cask 'visualvm'
 cask 'ngrok'
 cask 'itsycal'
-cask 'brave-browser'
 
 # telegram must be downloaded from https://desktop.telegram.org so that phone verification can pass
 # https://github.com/shadowsocks/ShadowsocksX-NG/issues/290
@@ -63,24 +49,18 @@ cask 'brave-browser'
 cask 'haptickey'
 
 cask 'switchhosts'
-# csv editor
-cask 'tad'
 # screensaver
 cask 'aerial'
 
-cask 'onedrive'
-cask 'sublime-merge'
-
-tap 'adoptopenjdk/openjdk'
-cask 'adoptopenjdk16'
-cask 'microsoft-teams'
+# tap 'adoptopenjdk/openjdk'
+# cask 'adoptopenjdk16'
 cask 'keycastr'
 
 # https://github.com/XcodesOrg/XcodesApp
-cask 'xcodes'
+cask 'xcodes-app'
 
-# input method, https://rime.im
-cask 'squirrel-app'
+# multi agent
+cask 'aionui'
 
 # probation
 #
@@ -103,3 +83,21 @@ cask 'squirrel-app'
 # tap 'kidonng/malt'
 # cask 'vimac'
 # cask 'bloomrpc'
+# cask 'microsoft-teams'
+# cask 'onedrive'
+# cask 'sublime-merge'
+# csv editor
+# cask 'tad'
+# cask 'brave-browser'
+# use jetbrains toolbox to manage pycharm/intellij
+# cask 'jetbrains-toolbox'
+# cask 'anaconda'
+# cask 'visualvm'
+# brew 'clojure'
+# brew 'leiningen'
+# brew 'translate-shell'
+# brew 'lazydocker'
+# input method, https://rime.im
+# cask 'squirrel-app'
+# brew 'pyenv'
+# brew 'maven'
