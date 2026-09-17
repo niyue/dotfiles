@@ -112,43 +112,43 @@ sudo chflags nohidden /Volumes
 ###############################################################################
 
 # Show the full URL in the address bar (note: this still hides the scheme)
-defaults write com.apple.Safari ShowFullURLInSmartSearchField -bool true
+sudo defaults write com.apple.Safari ShowFullURLInSmartSearchField -bool true
 
 # Prevent Safari from opening ‘safe’ files automatically after downloading
-defaults write com.apple.Safari AutoOpenSafeDownloads -bool false
+sudo defaults write com.apple.Safari AutoOpenSafeDownloads -bool false
 
 # Privacy: don’t send search queries to Apple
-defaults write com.apple.Safari UniversalSearchEnabled -bool false
-defaults write com.apple.Safari SuppressSearchSuggestions -bool true
+sudo defaults write com.apple.Safari UniversalSearchEnabled -bool false
+sudo defaults write com.apple.Safari SuppressSearchSuggestions -bool true
 
 # Set Safari’s home page to `about:blank` for faster loading
-defaults write com.apple.Safari HomePage -string "about:blank"
+sudo defaults write com.apple.Safari HomePage -string "about:blank"
 
 # Allow hitting the Backspace key to go to the previous page in history
-defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2BackspaceKeyNavigationEnabled -bool true
+sudo defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2BackspaceKeyNavigationEnabled -bool true
 
 # Enable Safari’s debug menu
-defaults write com.apple.Safari IncludeInternalDebugMenu -bool true
+sudo defaults write com.apple.Safari IncludeInternalDebugMenu -bool true
 
 # Make Safari’s search banners default to Contains instead of Starts With
-defaults write com.apple.Safari FindOnPageMatchesWordStartsOnly -bool false
+sudo defaults write com.apple.Safari FindOnPageMatchesWordStartsOnly -bool false
 
 # Enable the Develop menu and the Web Inspector in Safari
-defaults write com.apple.Safari IncludeDevelopMenu -bool true
-defaults write com.apple.Safari WebKitDeveloperExtrasEnabledPreferenceKey -bool true
-defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2DeveloperExtrasEnabled -bool true
+sudo defaults write com.apple.Safari IncludeDevelopMenu -bool true
+sudo defaults write com.apple.Safari WebKitDeveloperExtrasEnabledPreferenceKey -bool true
+sudo defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2DeveloperExtrasEnabled -bool true
 
 # Add a context menu item for showing the Web Inspector in web views
 defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
 
 # Disable auto-correct
-defaults write com.apple.Safari WebAutomaticSpellingCorrectionEnabled -bool false
+sudo defaults write com.apple.Safari WebAutomaticSpellingCorrectionEnabled -bool false
 
 # Enable “Do Not Track”
-defaults write com.apple.Safari SendDoNotTrackHTTPHeader -bool true
+sudo defaults write com.apple.Safari SendDoNotTrackHTTPHeader -bool true
 
 # Update extensions automatically
-defaults write com.apple.Safari InstallExtensionUpdatesAutomatically -bool true
+sudo defaults write com.apple.Safari InstallExtensionUpdatesAutomatically -bool true
 
 ###############################################################################
 # Activity Monitor                                                            #
@@ -164,7 +164,7 @@ defaults write com.apple.ActivityMonitor ShowCategory -int 0
 #####################
 
 # set preview to continous scroll mode
-defaults write com.apple.Preview PVPDFDisplayMode 1
+sudo defaults write com.apple.Preview PVPDFDisplayMode 1
 
 # set Flycut's sticky bazel, login startup and icon
 defaults write com.generalarcade.flycut stickyBezel 1
