@@ -150,6 +150,9 @@ sudo defaults write com.apple.Safari SendDoNotTrackHTTPHeader -bool true
 # Update extensions automatically
 sudo defaults write com.apple.Safari InstallExtensionUpdatesAutomatically -bool true
 
+# disable pull to refresh
+sudo defaults write com.apple.Safari DebugDisableRefreshControl 1
+
 ###############################################################################
 # Activity Monitor                                                            #
 ###############################################################################
