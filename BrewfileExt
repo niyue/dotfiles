@@ -59,8 +59,7 @@ cask 'keycastr'
 # https://github.com/XcodesOrg/XcodesApp
 cask 'xcodes-app'
 
-# multi agent
-cask 'aionui'
+cask 'cameracontroller'
 
 # probation
 #
